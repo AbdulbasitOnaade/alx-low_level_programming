@@ -4,7 +4,7 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main This is the main function
+ * main - This is the main function
  *
  * Return: This return is 0
  */
@@ -17,7 +17,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	m = n % 10;
-	if (n > 5)
+	if (m > 5)
 		printf("Last digit of %d is %d and is greater than 5", n, m);
 	else if (m == 0)
 		printf("Last digit of %d is %d and is zero", n, m);
